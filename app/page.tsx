@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex sm:min-h-[91vh] min-h-[88vh] flex-col items-center justify-center text-center px-2 py-8">
       <Link
-        href="https://github.com/nisabmohd/Documentation-Template"
+        href="https://github.com/unaivan22"
         target="_blank"
         className="mb-5 sm:text-lg flex items-center gap-2 underline underline-offset-4"
       >
@@ -18,9 +18,7 @@ export default function Home() {
         Design Documentation Energeek
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        This feature-packed documentation template, built with Next.js, offers a
-        sleek and responsive design, perfect for all your project documentation
-        needs.
+      This design documentation page, built with Next.js, offers a sleek and responsive design, perfect for all documentation needs.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
@@ -29,7 +27,7 @@ export default function Home() {
         >
           Get Stared
         </Link>
-        <Link
+        {/* <Link
           href="#"
           className={buttonVariants({
             variant: "outline",
@@ -38,10 +36,10 @@ export default function Home() {
           })}
         >
           Customize
-        </Link>
+        </Link> */}
       </div>
       <span className="flex flex-row items-center gap-2 text-zinc-400 text-md mt-7 -mb-12 max-[800px]:mb-12">
-        <TerminalIcon className="w-4 h-4 mr-1" /> ~ npx this-library-name@latest
+        <TerminalIcon className="w-4 h-4 mr-1" /> Maitainer by : @ivan @drajat
       </span>
     </div>
   );
