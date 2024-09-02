@@ -38,10 +38,6 @@ export const ROUTES = [
       { title: "Segmented Button", href: "/segmented-button" },
       { title: "Switch", href: "/switch" },
       { title: "Typography", href: "/typography" },
-      // { title: "Quick Start Guide", href: "/quick-start-guide" },
-      // { title: "Project Structure", href: "/project-structure" },
-      // { title: "Changelog", href: "/changelog" },
-      // { title: "FAQ", href: "/faq" },
     ],
   },
   // {
