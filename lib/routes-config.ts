@@ -31,7 +31,10 @@ export const ROUTES = [
     items: [
       { title: "Quick Start", href: "/quick-start" },
       { title: "Button", href: "/button" },
+      { title: "Chips", href: "/chips" },
       { title: "Date/Time Picker", href: "/date-time-picker" },
+      { title: "Dialog", href: "/dialog" },
+      { title: "Radio", href: "/radio" },
       { title: "Segmented Button", href: "/segmented-button" },
       { title: "Switch", href: "/switch" },
       { title: "Typography", href: "/typography" },
