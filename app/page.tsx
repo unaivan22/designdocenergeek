@@ -7,18 +7,18 @@ export default function Home() {
   return (
     <div className="flex sm:min-h-[91vh] min-h-[88vh] flex-col items-center justify-center text-center px-2 py-8">
       <Link
-        href="https://github.com/unaivan22"
+        href="https://gitlab.com/energeek"
         target="_blank"
         className="mb-5 sm:text-lg flex items-center gap-2 underline underline-offset-4"
       >
-        Follow along on GitHub{" "}
+        Repository on Gitlab{" "}
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
         Design Documentation Energeek
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-      This design documentation page, built with Next.js, offers a sleek and responsive design, perfect for all documentation needs.
+      This design documentation page, built with Next.js and Tailwindcss, offers a sleek and responsive design, perfect for all documentation needs.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
@@ -39,7 +39,7 @@ export default function Home() {
         </Link> */}
       </div>
       <span className="flex flex-row items-center gap-2 text-zinc-400 text-md mt-7 -mb-12 max-[800px]:mb-12">
-        <TerminalIcon className="w-4 h-4 mr-1" /> Maitainer by : @ivan @drajat
+        <TerminalIcon className="w-4 h-4 mr-1" /> Mantainer by : @ivan @drajat
       </span>
     </div>
   );

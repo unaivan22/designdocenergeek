@@ -13,22 +13,22 @@ export const NAVLINKS = [
     title: "Documentation",
     href: `/docs/${page_routes[0].href}`,
   },
-  {
-    title: "Examples",
-    href: "#",
-  },
-  {
-    title: "Guides",
-    href: "#",
-  },
-  {
-    title: "Community",
-    href: "#",
-  },
-  {
-    title: "Blog",
-    href: "#",
-  },
+  // {
+  //   title: "Examples",
+  //   href: "#",
+  // },
+  // {
+  //   title: "Guides",
+  //   href: "#",
+  // },
+  // {
+  //   title: "Community",
+  //   href: "#",
+  // },
+  // {
+  //   title: "Blog",
+  //   href: "#",
+  // },
 ];
 
 export function Navbar() {
@@ -52,7 +52,7 @@ export function Navbar() {
             <Search />
             <div className="flex">
               <Link
-                href="https://github.com/nisabmohd/Docs-Stater-Template"
+                href="https://gitlab.com/energeek"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
                 <Gitlab className="h-[1.1rem] w-[1.1rem]" />
