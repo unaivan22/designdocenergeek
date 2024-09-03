@@ -14,11 +14,11 @@ export default function Home() {
         Repository on Gitlab{" "}
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
-      <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
+      <h1 className="text-4xl font-bold mb-4 sm:text-5xl">
         Design Documentation Energeek
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-      This design documentation page, built with Next.js and Tailwindcss, offers a sleek and responsive design, perfect for all documentation needs.
+      This design documentation page is created as a basic reference in implementing the design into code at Energeek.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
@@ -39,7 +39,7 @@ export default function Home() {
         </Link> */}
       </div>
       <span className="flex flex-row items-center gap-2 text-zinc-400 text-md mt-7 -mb-12 max-[800px]:mb-12">
-        <TerminalIcon className="w-4 h-4 mr-1" /> Mantainer by : @ivan @drajat
+        <TerminalIcon className="w-4 h-4 mr-1" /> Mantainer by : <a href="https://gitlab.com/unaivan" className="hover:text-black underline">@ivan</a> @drajat
       </span>
     </div>
   );

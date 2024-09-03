@@ -31,7 +31,7 @@ export function FooterButtons() {
   return (
     <>
       <p>
-        2024 - Last Update 30 Agustus 2024
+        2024 - Last Update 03 Sep 2024
       </p>
     </>
   );
