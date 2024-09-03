@@ -39,7 +39,7 @@ export default function Home() {
         </Link> */}
       </div>
       <span className="flex flex-row items-center gap-2 text-zinc-400 text-md mt-7 -mb-12 max-[800px]:mb-12">
-        <TerminalIcon className="w-4 h-4 mr-1" /> Mantainer by : <a href="https://gitlab.com/unaivan" className="hover:text-black underline">@ivan</a> @drajat
+        <TerminalIcon className="w-4 h-4 mr-1" /> Mantainer by : <a href="https://gitlab.com/unaivan" target="_blank" className="hover:text-black underline flex items-center gap-x-1"> <img src="https://gitlab.com/uploads/-/system/user/avatar/3640022/avatar.png" className="h-6 w-6 rounded-full" /> @ivan</a> @drajat
       </span>
     </div>
   );
