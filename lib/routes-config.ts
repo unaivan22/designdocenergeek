@@ -17,6 +17,7 @@ export const ROUTES = [
     href: "web-design",
     items: [
       { title: "Quick Start", href: "/quick-start" },
+      { title: "Badge", href: "/badge" },
       { title: "Button", href: "/button" },
       { title: "Color", href: "/color" },
       { title: "Input Form", href: "/input-form" },
